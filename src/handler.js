@@ -134,7 +134,7 @@ const deleteNoteByIdHandler = (request, h) => {
     return response;
 };
 
-module.exports = { 
+module.exports = {
     addNoteHandler, 
     getAllNotesHandler, 
     getNoteByIdHandler, 
